@@ -19,8 +19,9 @@ try{
 
     console.log(addressBook.findContactByName("Ankit"));
 
-    console.log(addressBook.deleteContact("Ankit"));
-    console.log(addressBook)
+    // console.log(addressBook.deleteContact("Ankit"));
+    // console.log(addressBook)
+    console.log(addressBook.countContacts())
 }catch (error) {
     console.error("Error:", error.message);
 }
