@@ -24,7 +24,9 @@ try{
     console.log(addressBook.countContacts())
 
     console.log(addressBook.searchByCityOrState("Bihar"))
-    console.log(addressBook.viewPersonsByCityOrState())
+    console.log(addressBook.viewPersonsByCityOrState());
+
+    console.log(addressBook.countByCityOrState())
 }catch (error) {
     console.error("Error:", error.message);
 }
