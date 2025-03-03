@@ -7,8 +7,8 @@ class AddressBook {
 
     addContact(contact) {
         const isDuplicate = this.contacts.filter(c => 
-            c.firstName.toLowerCase() === contact.firstName.toLowerCase() &&
-            c.lastName.toLowerCase() === contact.lastName.toLowerCase()
+            c.firstName.toLowerCase() === contact.firstName.toLowerCase()  &&
+             c.lastName.toLowerCase() === contact.lastName.toLowerCase()
         ).length > 0;
 
         if (isDuplicate) {
