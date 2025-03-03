@@ -30,6 +30,11 @@ try{
 
 
     console.log(addressBook.sortContactsByName())
+
+    console.log(addressBook.sortContactsByCity().map(contact => contact.toString()).join("\n"));
+
+    console.log(addressBook.sortContactsByState().map(contact => contact.toString()).join("\n"));
+    console.log(addressBook.sortContactsByZip().map(contact => contact.toString()).join("\n"));
 }catch (error) {
     console.error("Error:", error.message);
 }
