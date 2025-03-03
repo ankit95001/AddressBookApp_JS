@@ -22,6 +22,8 @@ try{
     // console.log(addressBook.deleteContact("Ankit"));
     // console.log(addressBook)
     console.log(addressBook.countContacts())
+
+    console.log(addressBook.searchByCityOrState("Bihar"))
 }catch (error) {
     console.error("Error:", error.message);
 }
